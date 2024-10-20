@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# Web-Chatbot
+ 🚀 Este repositório contém o código-fonte com aplicação que visa autenticar o usuário com uma chave de API fornecida pelo Blip, listar os contatos do chatbot e permitir a visualização das conversas completas de um contato selecionado. Cada rota foi implementada para atender requisitos funcionais específicos.<br><br>
+<div>
+    
+   
+</div><br>
+<img src="./src/assets/login-tela.png" alt="Nodejs">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Neste desafio, o objetivo era desenvolver uma aplicação web para exibir contatos e conversas de um chatbot criado na plataforma Blip. A aplicação foi desenvolvida utilizando React, TypeScript, Tailwind CSS e a biblioteca de componentes ShadCN/UI.
 
-Currently, two official plugins are available:
+ ## Tecnologias/Ferramentas Utilizadas :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ <div style="display: inline_block" >
+    <img align="center" alt="" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+    <img align="center" alt="" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+    <img  align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+    <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+</div>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Como executar o projeto:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone do repositório :
+
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+$ git clone https://github.com/Dev-Messias/web-chatbot.git
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+> Acesse a página utilizando `cd web-chatbot`
+
+2. Instale as dependências :
+
+```
+
+$ npm install
+
+```
+
+
+3. Iniciando o projeto :
+
+```
+
+$ npm run dev
+
+```
+
+
+ 

@@ -1,12 +1,16 @@
+import Contatos from "@/components/contatos";
+import Header from "@/components/header";
+
+
+
+
 function Home() {
 
 
     return (
-      <div className="w-full h-screen flex flex-col items-center justify-center" >
-        <div >
-          <h1 className="text-xl text-red-500" >Home</h1>
-          
-        </div>
+      <div className=" w-full h-screen bg-slate-50" >
+        <Header/>
+        <Contatos/>
       </div>
     )
   }
