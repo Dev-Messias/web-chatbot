@@ -33,7 +33,7 @@ function DetailContact() {
                 </div>
                 <ScrollArea className=" border w-full h-[480px] md:h-[560px] xl:h-[700px] rounded-md mt-5 px-4 py-5">
                     <ul className="flex flex-col gap-4" >
-                        {messages.map((message) => (
+                        {messages.slice().reverse().map((message) => (
 
                             <>
                                 {message.direction === 'received' ?
